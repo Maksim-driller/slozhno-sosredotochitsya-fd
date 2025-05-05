@@ -1,5 +1,185 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */ 
+  min-inline-size: 375px;
+  background-image: var(--page-background-image);
+  background-size: 375px 668px; 
+  background-position: left;
+  background-repeat: no-repeat; 
+  width: 375px; 
+  height: 668px; 
+} 
+
+.header_decorated-zone { 
+  width: 375px; 
+  height: 668px;  
+  background-color: var(--page-background-color);
+  position: relative;
+  overflow: hidden; 
+} 
+
+.header_rec { 
+  font-size: 18px; 
+  font-weight: 400; 
+  font-family: var(--page-font-family);  
+  color: var(--accent-color); 
+  text-transform: uppercase; 
+  position: absolute;
+  top: 12px;
+  left: 20px; 
+  padding-left: 285px; 
 }
+
+.header_title {
+  position: absolute;
+  top: 339px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 116px;
+  font-weight: 700;
+  font-family: var(--page-font-family);
+  color: var(--brand-color); 
+  text-shadow: 4px 4px 0 var(--accent-color);
+  line-height: 83%; 
+  text-align: left;
+  width: 100%; 
+  text-shadow: 2px 2px 0 var(--accent-color); 
+}
+
+.header__theme-menu-button  { 
+  color: var(--accent-color); 
+  font-family: var(--page-font-family); 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-transform: uppercase; 
+  line-height: 18px;  
+  background: transparent; 
+  border: 1px solid transparent;  
+  width: 76px; 
+  height: 26px;  
+  margin-left: -279px; 
+  transform: translateY(80px);
+}
+
+.header__theme-menu-button_active { 
+  border: 1px solid var(--accent-color); 
+}
+
+/* Новые стили */
+.cover {
+  position: relative;
+  padding: 10px;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--accent-color);
+}
+
+.decorated-zone::before {
+  top: 10px;
+  right: 10px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.decorated-zone::after {
+  bottom: 10px;
+  left: 10px;
+  border-right: none;
+  border-top: none;
+}
+
+.header__theme-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page-title {
+  font-size: 116px;
+  font-weight: 700;
+  color: var(--brand-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  margin: 0;
+  padding: 20px;
+}
+
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  padding: 5px 10px;
+}
+
+.articles-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article {
+  margin-bottom: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.gallery-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-list__item-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+

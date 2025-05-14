@@ -1,32 +1,21 @@
 :root.theme-dark {
-  --bg-color: #000028;
-  --accent-bg: #FF0070;
-
-  --decor-color: #FF0070;
-  
-  --title-color: #DB00FF;
-  --title-shadow: #FF0070;
-  --text-color: #F1B2CE;
-  --accent-text: #000028;
-  --headline-color: #FF0070;
-  
-  --btn-text: #FF0070;
-  --btn-focus: #FF0070;
-  --btn-hover: rgba(255, 0, 112, 0.4);
-  --btn-active: #FF0070;
-
-  --link-text: #F1B2CE;
-  --link-shadow: #FF0070;
-  --link-focus: #F1B2CE;
-  --link-hover: #F1B2CE;
-
-  --bg-image: url("../images/cover-image-dark.png");
+  --accent-color: #ff0070;
+  --main-color: #000028;
+  --text-color: #f1b2ce;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --content-font-size: 18px;
+  --title-color: #db00ff;
+  --text-content-color: #f1b2ce;
+  --text-cover: #000028;
+  --content-title: #ff0070;
+  --decor-color: #ff0070;
+  --decor-content-color: #ff0070;
+  --shadow-color: #ff0070;
+  --button-color: #ff007066;
+  --text-button-color: #ff0070;
+  --border-color: #ff0070;
 }
 
-.theme-dark .header__rec-bulb {
-  display: block;
-}
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+.theme-dark .header__lamp {
+  display: flex;
 }

@@ -1,63 +1,47 @@
+
+
 :root.theme-light {
-  --bg-color: #F5F5F5;
-  --accent-bg: #FF8DCB;
-
-  --decor-color: #353430;
-  
-  --title-color: #FFC2E6;
-  --title-shadow: #FF8DCB;
+  --accent-color: #ff8dcb;
+  --main-color: #fff1f7;
   --text-color: #353430;
-  --accent-text: #353430;
-  --headline-color: #353430;
-  
-  --btn-text: #353430;
-  --btn-focus: #353430;
-  --btn-hover: rgba(50, 49, 45, 0.4);
-  --btn-active: #353430;
-
-  --link-text: #353430;
-  --link-shadow: #FF8DCB;
-  --link-focus: #353430;
-  --link-hover: #353430;
-
-  --bg-image: url("../images/cover-image-light.png");
+  --header-bg-image: url(../images/cover-image-light.png);
+  --content-font-size: 18px;
+  --title-color: #ffc2e6;
+  --text-content-color: #353430;
+  --text-cover: #353430;
+  --content-title: #353430;
+  --decor-color: #353430;
+  --decor-content-color: #ff8dcb;
+  --shadow-color: #ff0070;
+  --text-button-color: #353430;
+  --button-color: #32312d66;
+  --border-color: #353430;
 }
 
-.theme-light .header__rec-bulb {
+.theme-light .header__lamp {
   display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #F5F5F5;
-    --accent-bg: #FF8DCB;
-  
-    --decor-color: #353430;
-    
-    --title-color: #FFC2E6;
-    --title-shadow: #FF8DCB;
+    --accent-color: #ff8dcb;
+    --main-color: #fff1f7;
     --text-color: #353430;
-    --accent-text: #353430;
-    --headline-color: #353430;
-    
-    --btn-text: #353430;
-    --btn-focus: #353430;
-    --btn-hover: rgba(50, 49, 45, 0.4);
-    --btn-active: #353430;
-  
-    --link-text: #353430;
-    --link-shadow: #FF8DCB;
-    --link-focus: #353430;
-    --link-hover: #353430;
-
-    --bg-image: url("../images/cover-image-light.png");
+    --header-bg-image: url(../images/cover-image-light.png);
+    --content-font-size: 18px;
+    --title-color: #ffc2e6;
+    --text-content-color: #353430;
+    --text-cover: #353430;
+    --content-title: #353430;
+    --decor-color: #353430;
+    --decor-content-color: #ff8dcb;
+    --shadow-color: #ff0070;
+    --text-button-color: #353430;
+    --button-color: #32312d66;
+    --border-color: #353430;
   }
 
-  .header__rec-bulb {
+  .header__lamp {
     display: none;
   }
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }

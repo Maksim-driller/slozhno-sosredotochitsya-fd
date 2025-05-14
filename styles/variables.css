@@ -3,38 +3,20 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-color: #000028;
-  --accent-bg: #FF0070;
-
-  --decor-color: #FF0070;
-  
-  --title-color: #DB00FF;
-  --title-shadow: #FF0070;
-  --text-color: #F1B2CE;
-  --accent-text: #000028;
-  --headline-color: #FF0070;
-  
-  --btn-text: #FF0070;
-  --btn-focus: #FF0070;
-  --btn-hover: rgba(255, 0, 112, 0.4);
-  --btn-active: #FF0070;
-
-  --link-text: #F1B2CE;
-  --link-shadow: #FF0070;
-  --link-focus: #F1B2CE;
-  --link-hover: #F1B2CE;
-
-  --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-
-  --page-padding-x: 10px;
-  --page-padding-y: 10px;
-
-  --menu-gap: 6px;
-  --content-gap: 40px;
-  --section-gap: 50px;
-  --gallery-gap: 10px;
-
-  --btn-padding: 0 12px 4px;
-
-  --bg-image: url("../images/cover-image-dark.png");
+  --main-font-family: "IBM Plex Mono", "Bold Regular", sans-serif;
+  --accent-color: #ff0070;
+  --main-color: #000028;
+  --text-color: #f1b2ce;
+  --header-bg-image: url(../images/cover-image-dark.png);
+  --content-font-size: 18px;
+  --title-color: #db00ff;
+  --text-content-color: #f1b2ce;
+  --text-cover: #000028;
+  --content-title: #ff0070;
+  --decor-color: #ff0070;
+  --decor-content-color: #ff0070;
+  --shadow-color: #ff0070;
+  --button-color: #ff007066;
+  --text-button-color: #ff0070;
+  --border-color: #ff0070;
 }

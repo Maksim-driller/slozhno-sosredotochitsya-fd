@@ -16,6 +16,6 @@
   --border-color: #ff0070;
 }
 
-.theme-dark .header__lamp {
+.theme-dark .main-header__lamp {
   display: flex;
 }

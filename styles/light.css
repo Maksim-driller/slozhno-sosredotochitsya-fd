@@ -1,5 +1,3 @@
-
-
 :root.theme-light {
   --accent-color: #ff8dcb;
   --main-color: #fff1f7;
@@ -18,7 +16,7 @@
   --border-color: #353430;
 }
 
-.theme-light .header__lamp {
+.theme-light .main-header__lamp {
   display: none;
 }
 
@@ -41,7 +39,7 @@
     --border-color: #353430;
   }
 
-  .header__lamp {
+  .main-header__lamp {
     display: none;
   }
 }

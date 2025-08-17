@@ -13,6 +13,7 @@
   --text-button-color: #353430;
   --button-color: #32312d66;
   --border-color: #353430;
+  --main-color: #353430;
 }
 
 .theme-light .main-header__lamp {
@@ -35,6 +36,7 @@
     --text-button-color: #353430;
     --button-color: #32312d66;
     --border-color: #353430;
+    --main-color: #353430;
   }
 
   .main-header__lamp {
